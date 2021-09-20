@@ -17,7 +17,9 @@ Forms:
 
 Functions:
 * Decor
-* 
+* Wear
+* Attack
+* Defend
 
 ### Mapping Forms and Functions to the virtual world
 * Visual Decor
