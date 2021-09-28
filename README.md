@@ -14,6 +14,7 @@ Forms:
     * Static (SVG/IPFS or Arweave)
     * Dynamic (Video/other?)
 * Auditory
+* Material (a 3D form, using the Voxelizer or a predefined set of objects)
 
 Functions:
 * Decor
@@ -28,6 +29,9 @@ Functions:
 * Auditory Decor
     * Background music for user
     * Environmental sound in personal room
+* Material Decor
+    * Placed around the users personal room
+    * Carryable in the users inventory
 
 
 

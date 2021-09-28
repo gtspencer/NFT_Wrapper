@@ -12,22 +12,16 @@ abstract contract INFTWrapper {
     // address of NFT that will call TokenURI
     address nftAddress;
 
-    enum Category {
-        Item,
-        Decor
+    enum Form {
+        Visual,
+        Audio
     }
 
-    enum Attribute {
-        ThreeD,
-        TwoD
-    }
-
-    mapping(Category => string) CategoryMapping;
-
-    Category _category;
-
-    function getCategory() external view returns (string memory) {
-        return CategoryMapping[_category];
+    enum Function {
+        Decor,
+        Wear,
+        Attack,
+        Defend
     }
 
     /**
@@ -39,4 +33,6 @@ abstract contract INFTWrapper {
         string memory json = Base64.encode(bytes(string(abi.encodePacked(
             '{"name": "Default NFT", "description": "Default NFT description", "image": "data:image/svg+xml;base64,', Base64.encode(bytes(output)), '"}'))));
     }
+
+
 }
